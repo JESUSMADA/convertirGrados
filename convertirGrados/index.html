@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversion de grados</title>
+</head>
+<body>
+    <script src="sripts.js"></script>
+    <h1>Conversion de grados</h1>
+
+<!--Selector para elegir figura-->
+    <label for="seleccion">Selecciona el tipo de grado:</label>
+<select id="seleccion">
+        <option value="" selected disabled hidden>Elige</option>
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kalvin">Kalvin</option>
+</select>
+<br>
+
+<!--Ingresar en primer lado-->
+    <label for="grados">Grados:</label>
+    <input type="number" id="grados">
+<br>
+
+<!--Boton-->
+    <button onclick="convertirGrados()">Convertir</button>
+    <p id="resultado"></p>
+</body>
+</html>
